@@ -3,7 +3,7 @@
 # Carry out static testing on the code below.
 # Comment on any errors that you see below.
 # There are 6 errors in total. 
-#! INCLUDING THIS THERE ARE 14 ERRORS IN TOTAL
+#! INCLUDING THIS THERE ARE 15 ERRORS IN TOTAL AND ONE BIT OF INCORRECT CASING
 ```python
 
 class CardGame:
@@ -20,7 +20,7 @@ class CardGame:
     else # MISSING COLON
       return card2
  
-
+# THE ENTIRE FUNCTION BELOW IS NOT INDENTED CORRECTLY
  def cards_total(cards): # MISSING SELF FROM LIST OF PARAMETERS
    total # TOTAL HAS NOT BEEN DEFINED
    for card in cards:
